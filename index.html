@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solar System Simulator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>Solar System Simulator</header>
     <div id="solar-system">
-        <button id="start-btn">Start</button>
-        <button id="stop-btn">Stop</button>
-        <svg id="solar-svg" viewBox="0 0 1000 1000">
-            <circle cx="500" cy="500" r="15" fill="#ffd700" />
-            <text x="500" y="530" text-anchor="middle" class="planet-label">Sun</text>
-        </svg>
-        <div id="info"></div>
+      <button id="start-btn">Start</button>
+      <button id="stop-btn">Stop</button>
+      <svg id="solar-svg" viewBox="0 0 1000 1000">
+        <circle cx="500" cy="500" r="15" fill="#ffd700" />
+        <text x="500" y="530" text-anchor="middle" class="planet-label">
+          Sun
+        </text>
+      </svg>
+      <div id="info"></div>
     </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
