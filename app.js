@@ -19,7 +19,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA11245/PIA11245~large.jpg",
     moons: 0,
-    travelTime: "~6 years",
+    travelTime: "6 years",
     facts: [
       "Extreme temperature variations",
       "No atmosphere",
@@ -35,7 +35,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA00104/PIA00104~large.jpg",
     moons: 0,
-    travelTime: "~5 years",
+    travelTime: "5 years",
     facts: ["Hottest planet", "Thick toxic atmosphere", "Rotates backwards"],
   },
   {
@@ -59,7 +59,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA04591/PIA04591~large.jpg",
     moons: 2,
-    travelTime: "~7 years",
+    travelTime: "7 years",
     facts: ["Red due to iron oxide", "Largest volcano", "Two moons"],
   },
   {
@@ -71,7 +71,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA21973/PIA21973~large.jpg",
     moons: 79,
-    travelTime: "~5 years",
+    travelTime: "5 years",
     facts: ["Largest planet", "Great Red Spot", "Strong magnetic field"],
   },
   {
@@ -83,7 +83,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA02222/PIA02222~large.jpg",
     moons: 82,
-    travelTime: "~7 years",
+    travelTime: "7 years",
     facts: ["Prominent ring system", "Least dense planet", "Hexagonal storm"],
   },
   {
@@ -95,7 +95,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA18182/PIA18182~large.jpg",
     moons: 27,
-    travelTime: "~9 years",
+    travelTime: "9 years",
     facts: ["Tilted axis", "Blue-green color", "Coldest planet"],
   },
   {
@@ -107,7 +107,7 @@ const planets = [
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg",
     moons: 14,
-    travelTime: "~12 years",
+    travelTime: "12 years",
     facts: ["Strongest winds", "Great Dark Spot", "Farthest planet"],
   },
 ];
@@ -165,7 +165,7 @@ function togglePlanetInfo(planet) {
     const distanceKm = (planet.distance * auToKm).toLocaleString();
     let travelTimeHtml =
       planet.name !== "Earth"
-        ? `<p><strong>Estimated Travel Time:</strong> ${planet.travelTime}</p>`
+        ? `<p><strong>Estimated Travel Time From Earth:</strong> ${planet.travelTime}</p>`
         : "";
     const factsList = planet.facts.map((fact) => `<li>${fact}</li>`).join("");
     infoDiv.innerHTML = `
