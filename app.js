@@ -170,7 +170,7 @@ function togglePlanetInfo(planet) {
     const factsList = planet.facts.map((fact) => `<li>${fact}</li>`).join("");
     infoDiv.innerHTML = `
                     <h3 style="margin-top: 0; color: #ffd700;">${planet.name}</h3>
-                    <img src="${planet.imageUrl}" alt="${planet.name}" style="max-width: 200px; height: auto; border-radius: 5px; float: left; margin-right: 15px;">
+                    <img src="${planet.imageUrl}" alt="${planet.name}" style="max-width: 200px; height: auto; border-radius: 5px; float: left; margin-right: 15px; padding:15px;">
                     <p><strong>Distance from Sun:</strong> ${planet.distance} AU (${distanceKm} km)</p>
                     <p><strong>Orbital Period:</strong> ${planet.period} days</p>
                     <p><strong>Number of Moons:</strong> ${planet.moons}</p>
