@@ -17,7 +17,7 @@ const planets = [
     color: "#a9a9a9",
     period: 88,
     imageUrl:
-      "https://images-assets.nasa.gov/image/PIA11245/PIA11245~large.jpg",
+      "https://images-assets.nasa.gov/image/PIA15164/PIA15164~orig.jpg",
     moons: 0,
     travelTime: "6 years",
     facts: [
@@ -57,7 +57,7 @@ const planets = [
     color: "#ff4500",
     period: 687,
     imageUrl:
-      "https://images-assets.nasa.gov/image/PIA04591/PIA04591~large.jpg",
+      "https://images-assets.nasa.gov/image/PIA02697/PIA02697~orig.jpg",
     moons: 2,
     travelTime: "7 years",
     facts: ["Red due to iron oxide", "Largest volcano", "Two moons"],
@@ -69,7 +69,7 @@ const planets = [
     color: "#ffa500",
     period: 4333,
     imageUrl:
-      "https://images-assets.nasa.gov/image/PIA21973/PIA21973~large.jpg",
+      "https://images-assets.nasa.gov/image/PIA22946/PIA22946~orig.jpg",
     moons: 79,
     travelTime: "5 years",
     facts: ["Largest planet", "Great Red Spot", "Strong magnetic field"],
@@ -81,7 +81,7 @@ const planets = [
     color: "#f0e68c",
     period: 10759,
     imageUrl:
-      "https://images-assets.nasa.gov/image/PIA02222/PIA02222~large.jpg",
+      "https://images-assets.nasa.gov/image/PIA02225/PIA02225~orig.jpg",
     moons: 82,
     travelTime: "7 years",
     facts: ["Prominent ring system", "Least dense planet", "Hexagonal storm"],
@@ -93,7 +93,7 @@ const planets = [
     color: "#add8e6",
     period: 30687,
     imageUrl:
-      "https://images-assets.nasa.gov/image/PIA18182/PIA18182~large.jpg",
+      "https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg",
     moons: 27,
     travelTime: "9 years",
     facts: ["Tilted axis", "Blue-green color", "Coldest planet"],
