@@ -13,8 +13,8 @@ const planets = [
   {
     name: "Mercury",
     distance: 0.39,
-    size: 5,
-    color: "#a9a9a9",
+    size: 7,
+    color: "#868686",
     period: 88,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA15164/PIA15164~orig.jpg",
@@ -30,7 +30,7 @@ const planets = [
     name: "Venus",
     distance: 0.72,
     size: 12,
-    color: "#e6b800",
+    color: "#b1671a",
     period: 225,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA00104/PIA00104~large.jpg",
@@ -41,8 +41,8 @@ const planets = [
   {
     name: "Earth",
     distance: 1,
-    size: 12,
-    color: "#1e90ff",
+    size: 12.74,
+    color: "#265374",
     period: 365.25,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA18033/PIA18033~large.jpg",
@@ -53,8 +53,8 @@ const planets = [
   {
     name: "Mars",
     distance: 1.52,
-    size: 7,
-    color: "#ff4500",
+    size: 10,
+    color: "#eaba8c",
     period: 687,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA02697/PIA02697~orig.jpg",
@@ -65,8 +65,8 @@ const planets = [
   {
     name: "Jupiter",
     distance: 5.2,
-    size: 15,
-    color: "#ffa500",
+    size: 17.00,
+    color: "#f7e4d3",
     period: 4333,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA22946/PIA22946~orig.jpg",
@@ -77,8 +77,8 @@ const planets = [
   {
     name: "Saturn",
     distance: 9.58,
-    size: 12,
-    color: "#f0e68c",
+    size: 15.64,
+    color: "#aca97e",
     period: 10759,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA02225/PIA02225~orig.jpg",
@@ -89,8 +89,8 @@ const planets = [
   {
     name: "Uranus",
     distance: 19.2,
-    size: 10,
-    color: "#add8e6",
+    size: 11,
+    color: "#86a9af",
     period: 30687,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg",
@@ -101,8 +101,8 @@ const planets = [
   {
     name: "Neptune",
     distance: 30.0,
-    size: 10,
-    color: "#0000ff",
+    size: 11,
+    color: "#4266fe",
     period: 60190,
     imageUrl:
       "https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg",
